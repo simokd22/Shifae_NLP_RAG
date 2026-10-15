@@ -1,7 +1,4 @@
 # Shifar_NLP_RAG
-from pathlib import Path
-
-readme = r"""# SHIFAA Arabic Mental Health RAG
 
 A research project that explores **Retrieval-Augmented Generation (RAG)** for Arabic mental-health question answering. The system uses the SHIFAA Arabic Mental Health Consultations dataset to retrieve relevant expert consultation responses and provide a context-grounded answer in Modern Standard Arabic.
 
@@ -135,8 +132,8 @@ The project is accompanied by a report/paper titled **“Evidence-Based Arabic M
 
 ## Authors
 
-- **Bouba Ahmed**
 - **Lkhalidi Mohamed**
+- **Bouba Ahmed**
 
 Academic context: Master 2 — Intelligent Systems for Education, École Normale Supérieure de Meknès, Moulay Ismail University of Meknès, Morocco.
 
@@ -152,6 +149,4 @@ Academic context: Master 2 — Intelligent Systems for Education, École Normale
 *This README describes the supplied notebook and accompanying paper. Verify the exact runtime configuration, metrics, and dataset-processing counts by rerunning the notebook before reproducing or publishing the results.*
 """
 
-path = Path("/mnt/data/README_SHIFAA_RAG.md")
-path.write_text(readme, encoding="utf-8")
-print(f"Created: {path}\nSize: {path.stat().st_size} bytes")
+
